@@ -8,7 +8,7 @@ const Welcome = () => {
         <div className="w-full sm:w-8/12 mb-10">
           <div className="container mx-auto h-full sm:p-10">
             <nav className="flex px-4 justify-between items-center">
-              <div className="text-4xl font-bold">
+              <div className="text-4xl font-bold mt-4">
                 MyPortfolio<span className="text-yellow-700">.</span>
               </div>
               <div>
@@ -22,25 +22,30 @@ const Welcome = () => {
             <header className="container px-4 lg:flex mt-10 items-center h-full lg:mt-0">
               <div className="w-full">
                 <h1 className="text-4xl lg:text-6xl font-bold">
-                  I'm <span className="text-yellow-700">Raphael Kouamelan</span>{" "}
+                  I'm{" "}
+                  <span className="text-yellow-700">
+                    Otchoumou Raphael Kouamelan
+                  </span>
+                  <br />
                   <span className="text-4xl">
                     Développeur FullStack Junior{" "}
                   </span>
                 </h1>
                 <div className="w-20 h-2 bg-yellow-700 my-4"></div>
-                <p className="text-xl mb-10">
-                  Passionné par l’innovation, la
-                  recherche et la création de projets web & mobiles. Je conçois
-                  des solutions numériques modernes, efficaces et centrées sur
-                  l’utilisateur, en combinant mes compétences en développement
-                  (frontend & backend) avec une approche analytique des données.
-                  Curieux de nature, j’aime transformer les idées en produits
-                  concrets et utiles, en m’appuyant sur des technologies
-                  récentes et des méthodes agiles.
-                </p>
-                <button className="bg-yellow-800 text-white text-2xl font-medium px-4 py-2 rounded shadow">
-                  Learn More
-                </button>
+                <div className="relative inline-flex  group items-center justify-center bg-gradient-to-tr to-yellow-700 from-indigo-900 p-10 mt-8">
+                  <div class="absolute transitiona-all duration-1000 opacity-70 -inset-px  bg-gradient-to-tr to-yellow-700 from-indigo-900 rounded-xl blur-lg group-hover:opacity-100 group-hover:-inset-1 group-hover:duration-200 animate-tilt"></div>
+
+                  <p className="text-xl text-white mb-10 relative inline-flex items-center justify-center px-8 py-4 font-boldtransition-all duration-200 font-pj  focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-gray-900">
+                    Passionné par l’innovation, la recherche et la création de
+                    projets web & mobiles. Je conçois des solutions numériques
+                    modernes, efficaces et centrées sur l’utilisateur, en
+                    combinant mes compétences en développement (frontend &
+                    backend) avec une approche analytique des données. Curieux
+                    de nature, j’aime transformer les idées en produits concrets
+                    et utiles, en m’appuyant sur des technologies récentes et
+                    des méthodes agiles.
+                  </p>
+                </div>
               </div>
             </header>
           </div>
