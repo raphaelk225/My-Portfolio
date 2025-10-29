@@ -3,8 +3,8 @@ import React from "react";
 const ContactMe = () => {
   return (
     <section>
-      <div class="my-6">
-        <div class="grid  sm:grid-cols-2 items-center gap-16 p-8 m-10 max-w-full bg-white shadow-[0_2px_10px_-3px_rgba(6,81,237,0.3)] rounded-md text-[#333] font-[sans-serif]">
+      <div class="my-6 ">
+        <div class="grid sm:grid-cols-2 items-center gap-16 p-8 m-10 max-w-full bg-white shadow-[0_2px_10px_-3px_rgba(6,81,237,0.3)] rounded-md text-[#333] font-[sans-serif]">
           <div>
             <h1 class="text-3xl font-extrabold">Let's Talk</h1>
             <div className="w-20 h-2 bg-yellow-700 my-4"></div>
