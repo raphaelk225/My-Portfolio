@@ -9,8 +9,7 @@ const ContactMe = () => {
             <h1 class="text-3xl font-extrabold">Let's Talk</h1>
             <div className="w-20 h-2 bg-yellow-700 my-4"></div>
             <p class="text-sm text-gray-400 mt-3">
-              Have some big idea or brand to develop and need help? Then reach
-              out we'd love to hear about your project and provide help.
+              Got a question or proposal, or just want to say hello? Go ahead.
             </p>
             <div class="mt-12">
               <h2 class="text-lg font-extrabold">Email</h2>
@@ -54,7 +53,10 @@ const ContactMe = () => {
                   </a>
                 </li>
                 <li class=" h-10 w-10 rounded-full flex items-center justify-center shrink-0 duration-300 transform hover:scale-105">
-                  <a href="http://www.linkedin.com/in/raphael-kouamelan-9b337733a" target="blank">
+                  <a
+                    href="http://www.linkedin.com/in/raphael-kouamelan-9b337733a"
+                    target="blank"
+                  >
                     <img
                       src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/linkedin/linkedin-original.svg"
                       alt="Linkedin"
