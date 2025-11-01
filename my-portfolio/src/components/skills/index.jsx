@@ -8,9 +8,14 @@ const Skills = () => {
           My Skills
         </h2>
         <div className="w-full h-2 bg-yellow-700 my-4"></div>
-        <section className="Backend">
+        <section
+          data-aos="flip-left"
+          data-aos-easing="ease-out-cubic"
+          data-aos-duration="1000"
+          className="Backend"
+        >
           <div>
-            <h2 class="text-2xl tracking-tight font-extrabold text-center text-gray-900 md:text-2xl dark:text-white mt-10 mb-10">
+            <h2 class="text-2xl text-yellow-800  tracking-tight font-extrabold text-center  md:text-2xl dark:text-white mt-10 mb-10">
               BACKEND
             </h2>
           </div>
@@ -75,7 +80,9 @@ const Skills = () => {
                   alt="Laravel"
                   class="w-12 h-12 mb-2"
                 />
-                <span class="text-xl text-black font-semibold">Laravel</span>
+                <span class="text-xl text-yellow-800  font-semibold">
+                  Laravel
+                </span>
               </div>
 
               <div>
@@ -198,10 +205,14 @@ const Skills = () => {
             </div>
           </div>
         </section>
-
-        <section className="Frontend mt-10">
+        <section
+          data-aos="fade-right"
+          data-aos-offset="100"
+          data-aos-easing="ease-in-sine"
+          className="Frontend mt-10"
+        >
           <div>
-            <h2 class="text-2xl tracking-tight font-extrabold text-center text-gray-900 md:text-2xl dark:text-white mt-10 mb-10">
+            <h2 class="text-2xl text-yellow-800 tracking-tight font-extrabold text-center  md:text-2xl dark:text-white mt-10 mb-10">
               FRONTEND
             </h2>
           </div>
@@ -338,9 +349,14 @@ const Skills = () => {
           </div>
         </section>
 
-        <section className="Base de Donnees mt-10 ">
+        <section
+          data-aos="fade-right"
+          data-aos-offset="100"
+          data-aos-easing="ease-in-sine"
+          className="Base de Donnees mt-10 "
+        >
           <div>
-            <h2 class="text-2xl tracking-tight font-extrabold text-center text-gray-900 md:text-2xl dark:text-white mt-10 mb-10">
+            <h2 class="text-2xl tracking-tight font-extrabold text-center text-yellow-900 md:text-2xl dark:text-white mt-10 mb-10">
               BASE DE DONNÉES
             </h2>
           </div>
@@ -425,10 +441,15 @@ const Skills = () => {
           </div>
         </section>
 
-        <section className="Base de Donnees mt-10 ">
+        <section
+          data-aos="fade-right"
+          data-aos-offset="100"
+          data-aos-easing="ease-in-sine"
+          className="Base de Donnees mt-10 "
+        >
           <div>
-            <h2 class="text-2xl tracking-tight font-extrabold text-center text-gray-900 md:text-2xl dark:text-white mt-10 mb-10">
-              Outils
+            <h2 class="text-2xl tracking-tight font-extrabold text-center text-yellow-900 md:text-2xl dark:text-white mt-10 mb-10">
+              OUTILS
             </h2>
           </div>
 

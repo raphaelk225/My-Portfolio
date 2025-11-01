@@ -1,6 +1,36 @@
-import React from "react";
+"use client";
+import React, { useRef } from "react";
+import emailjs from "@emailjs/browser";
 
 const ContactMe = () => {
+  const form = useRef();
+
+  const sendEmail = (e) => {
+    e.preventDefault();
+
+    emailjs
+      .sendForm(
+        // eslint-disable-next-line no-undef
+        process.env.PORTFOLIO_SERVICE_ID,
+        // eslint-disable-next-line no-undef
+        process.env.PORTFOLIO_TEMPLATE_ID,
+        form.current,
+        // eslint-disable-next-line no-undef
+        process.env.PORTFOLIO_PUBLIC_KEY
+      )
+      .then(
+        (result) => {
+          console.log(result.text);
+          alert("Message sent successfully!");
+          form.current.reset();
+        },
+        (error) => {
+          console.log(error.text);
+          alert("Failed to send message. Please try again.");
+        }
+      );
+  };
+
   return (
     <>
       <section>
@@ -81,29 +111,36 @@ const ContactMe = () => {
               </div>
             </div>
 
-            <form class="ml-auo space-y-4">
+            <form ref={form} onSubmit={sendEmail} class="ml-auo space-y-4">
               <input
                 type="text"
                 placeholder="Name"
+                name="name"
                 class="w-full rounded-md py-2.5 px-4 border text-sm outline-yellow-700"
+                required
               />
               <input
                 type="email"
-                placeholder="Email"
+                placeholder="Email address"
+                name="email"
                 class="w-full rounded-md py-2.5 px-4 border text-sm outline-yellow-700"
+                required
               />
               <input
                 type="text"
                 placeholder="Subject"
+                name="title"
                 class="w-full rounded-md py-2.5 px-4 border text-sm outline-yellow-700"
               />
               <textarea
                 placeholder="Message"
                 rows="6"
+                name="message"
                 class="w-full rounded-md px-4 border text-sm pt-2.5 outline-yellow-700"
+                required
               ></textarea>
               <button
-                type="button"
+                type="submit"
                 class="text-white bg-yellow-700 hover:bg-yellow-600 font-semibold rounded-md text-sm px-4 py-2.5 w-full"
               >
                 Send
@@ -113,7 +150,7 @@ const ContactMe = () => {
         </div>
       </section>
 
-      <section class="bg-zinc-50 overflow-hidden">
+      {/* <section class="bg-zinc-50 overflow-hidden">
         <div class="max-w-screen-xl 2xl:max-w-screen-3xl px-8 md:px-12 mx-auto  lg:py-24 space-y-24  flex flex-col justify-center">
           <div class="flex flex-col sm:flex-row mx-auto">
             <a href="#_">
@@ -150,7 +187,7 @@ const ContactMe = () => {
             </a>
           </div>
         </div>
-      </section>
+      </section> */}
     </>
   );
 };

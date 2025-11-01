@@ -31,11 +31,18 @@ const Welcome = () => {
                     Développeur FullStack Junior{" "}
                   </span>
                 </h1>
-                <div className="w-20 h-2 bg-yellow-700 my-4"></div>
-                <div className="relative inline-flex  group items-center justify-center bg-gradient-to-tr to-yellow-700 from-indigo-900 p-10 mt-8">
+                <div
+                  data-aos="fade-up"
+                  data-aos-delay="300"
+                  className="w-20 h-2 bg-yellow-700 my-4"
+                ></div>
+                <div data-aos="fade-up-right" className="relative inline-flex  group items-center justify-center bg-gradient-to-tr to-yellow-700 from-indigo-900 p-10 mt-8">
                   <div class="absolute transitiona-all duration-1000 opacity-70 -inset-px  bg-gradient-to-tr to-yellow-700 from-indigo-900 rounded-xl blur-lg group-hover:opacity-100 group-hover:-inset-1 group-hover:duration-200 animate-tilt"></div>
 
-                  <p className="text-xl text-white mb-10 relative inline-flex items-center justify-center px-8 py-4 font-boldtransition-all duration-200 font-pj  focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-gray-900">
+                  <p
+                    data-aos="zoom-in"
+                    className="text-xl text-white mb-10 relative inline-flex items-center justify-center px-8 py-4 font-boldtransition-all duration-200 font-pj  focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-gray-900"
+                  >
                     Passionné par l’innovation, la recherche et la création de
                     projets web & mobiles. Je conçois des solutions numériques
                     modernes, efficaces et centrées sur l’utilisateur, en
@@ -51,6 +58,7 @@ const Welcome = () => {
           </div>
         </div>
         <img
+          data-aos="fade-left"
           src={myImage}
           alt="Leafs"
           class="w-full h-48 object-cover sm:h-screen sm:w-4/12"

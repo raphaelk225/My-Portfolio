@@ -15,7 +15,7 @@ const Formation = () => {
 
         <div className="mt-20">
             <ul>
-                <li className=" bg-gray-100 p-5 pb-10 text-center mb-20">
+                <li data-aos="flip-up" className=" bg-gray-100 p-5 pb-10 text-center mb-20">
                     <div className="flex flex-col items-center">
                         <div className="flex-shrink-0 relative top-0 -mt-16">
                             <div
@@ -26,12 +26,12 @@ const Formation = () => {
                         <div className="mt-4">
                             <h4 className="text-lg leading-6 font-semibold text-gray-900">FORMATION DÉVELOPPEMENT FULLSTACK</h4>
                             <p className="mt-2 text-base leading-6 text-gray-500">
-                               CODING ACADEMY - EPITECH (WECODE)
+                               WECODE (Coding Academy - Epitech)
                             </p>
                         </div>
                     </div>
                 </li>
-                <li className=" bg-gray-100 p-5 pb-10 text-center mb-20">
+                <li data-aos="flip-up" className=" bg-gray-100 p-5 pb-10 text-center mb-20">
                     <div className="flex flex-col items-center">
                         <div className="flex-shrink-0 relative top-0 -mt-16">
                             <div
@@ -47,7 +47,7 @@ const Formation = () => {
                         </div>
                     </div>
                 </li>
-                <li className=" bg-gray-100 p-5 pb-10 text-center mb-20">
+                <li data-aos="flip-up" className=" bg-gray-100 p-5 pb-10 text-center mb-20">
                     <div className="flex flex-col items-center">
                         <div className="flex-shrink-0 relative top-0 -mt-16">
                             <div
