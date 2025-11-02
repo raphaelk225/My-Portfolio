@@ -2,7 +2,7 @@ import React from "react";
 const Skills = () => {
   return (
     <>
-      <div class="w-full p-6 ">
+      <div class="w-full p-6">
         <h2 class="text-3xl sm:text-5xl leading-normal font-extrabold tracking-tight text-gray-900">
           My Skills
         </h2>
