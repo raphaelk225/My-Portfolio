@@ -24,7 +24,7 @@ const Welcome = () => {
                 <h1 className="text-4xl lg:text-6xl font-bold">
                   I'm{" "}
                   <span className="text-yellow-700">
-                    Otchoumou Raphael Kouamelan
+                    Otchoumou Raphael KOUAMELAN
                   </span>
                   <br />
                   <span className="text-4xl">
