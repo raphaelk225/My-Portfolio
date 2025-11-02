@@ -1,515 +1,353 @@
 import React from "react";
-
 const Skills = () => {
   return (
-    <section>
+    <>
       <div class="w-full p-6 ">
         <h2 class="text-3xl sm:text-5xl leading-normal font-extrabold tracking-tight text-gray-900">
           My Skills
         </h2>
         <div className="w-full h-2 bg-yellow-700 my-4"></div>
-        <section
-          data-aos="flip-left"
-          data-aos-easing="ease-out-cubic"
-          data-aos-duration="1000"
-          className="Backend"
-        >
-          <div>
-            <h2 class="text-2xl text-yellow-800  tracking-tight font-extrabold text-center  md:text-2xl dark:text-white mt-10 mb-10">
-              BACKEND
-            </h2>
-          </div>
 
-          <div class="grid grid-cols-2 items-center /sm:grid-cols-3 md:grid-cols-4 gap-6">
-            <div class=" bg-white dark:bg-gray-800 rounded-lg shadow-md hover:shadow-lg duration-300 transform hover:scale-105">
-              <div className="flex flex-col justify-center items-center">
-                <img
-                  src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original.svg"
-                  alt="NodeJS"
-                  class="w-12 h-12 mb-2"
-                />
-                <span class="text-xl text-black font-semibold">NodeJS</span>
-              </div>
+        <section class="flex flex-wrap gap-8">
+            <section class="flex-1 min-w-[300px]">
+              <h2 class="text-xl font-bold text-gray-800 mb-2 flex items-center">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  class="h-5 w-5 mr-2 text-yellow-600"
+                  fill="none"
+                  viewBox="0 0 24 24"
+                  stroke="currentColor"
+                >
+                  <path
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    stroke-width="2"
+                    d="M13 10V3L4 14h7v7l9-11h-7z"
+                  />
+                </svg>
+                Front-end
+              </h2>
+              <div class="w-16 h-1 bg-yellow-600 mb-4"></div>
 
-              <div>
-                <span class="text-2xl flex justify-center items-center font-bold">
-                  70%
-                </span>
-                {/* <div class="relative">
-                  <div class="w-full bg-gray-200 rounded-sm h-8">
-                    <div
-                      class="bg-green-500 h-full rounded-sm"
-                      style={{ width: "70%" }}
-                    ></div>
+              <div class="space-y-3">
+                <div class="flex items-center justify-between p-3 w-full bg-gray-50 rounded-lg hover:bg-blue-50 transition-colors">
+                  <div className="flex">
+                    <img
+                      src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg"
+                      alt="HTML"
+                      class="w-8 h-8 mr-3 "
+                    />
+                    <div class="font-bold">HTML </div>
                   </div>
-                </div> */}
-              </div>
-            </div>
-
-            {/* PHP */}
-            <div class=" bg-white dark:bg-gray-800 rounded-lg shadow-md hover:shadow-lg duration-300 transform hover:scale-105">
-              <div className="flex flex-col justify-center items-center">
-                <img
-                  src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/php/php-original.svg"
-                  alt="PHP"
-                  class="w-12 h-12 mb-2"
-                />
-                <span class="text-xl text-black font-semibold">PHP</span>
-              </div>
-
-              <div>
-                <span class="text-2xl flex justify-center items-center font-bold">
-                  70%
-                </span>
-                {/* <div class="relative">
-                  <div class="w-full bg-gray-200 rounded-sm h-8">
-                    <div
-                      class="bg-blue-500 h-full rounded-sm"
-                      style={{ width: "70%" }}
-                    ></div>
+                  <div className="font-bold text-yellow-700">95%</div>
+                </div>
+                <div class="flex items-center justify-between p-3 w-full bg-gray-50 rounded-lg hover:bg-blue-50 transition-colors">
+                  <div className="flex">
+                    <img
+                      src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg"
+                      alt="CSS"
+                      class="w-8 h-8 mr-3 "
+                    />
+                    <div class="font-bold">CSS </div>
                   </div>
-                </div> */}
-              </div>
-            </div>
-
-            {/* LARAVEL */}
-            <div class=" bg-white dark:bg-gray-800 rounded-lg shadow-md hover:shadow-lg duration-300 transform hover:scale-105">
-              <div className="flex flex-col justify-center items-center">
-                <img
-                  src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/laravel/laravel-original.svg"
-                  alt="Laravel"
-                  class="w-12 h-12 mb-2"
-                />
-                <span class="text-xl text-yellow-800  font-semibold">
-                  Laravel
-                </span>
-              </div>
-
-              <div>
-                <span class="text-2xl flex justify-center items-center font-bold">
-                  80%
-                </span>
-                {/* <div class="relative">
-                  <div class="w-full bg-gray-200 rounded-sm h-8">
-                    <div
-                      class="bg-red-500 h-full rounded-sm"
-                      style={{ width: "80%" }}
-                    ></div>
+                  <div className="font-bold text-yellow-700">90%</div>
+                </div>
+                <div class="flex items-center justify-between p-3 w-full bg-gray-50 rounded-lg hover:bg-blue-50 transition-colors">
+                  <div className="flex">
+                    <img
+                      src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg"
+                      alt="Javascript"
+                      class="w-8 h-8 mr-3 "
+                    />
+                    <div class="font-bold">Javascript </div>
                   </div>
-                </div> */}
-              </div>
-            </div>
-
-            {/* NEXTJS */}
-            <div class=" bg-white dark:bg-gray-800 rounded-lg shadow-md hover:shadow-lg duration-300 transform hover:scale-105">
-              <div className="flex flex-col justify-center items-center">
-                <img
-                  src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nextjs/nextjs-original.svg"
-                  alt="NextJS"
-                  class="w-12 h-12 mb-2"
-                />
-                <span class="text-xl text-black font-semibold">NextJS</span>
-              </div>
-
-              <div>
-                <span class="text-2xl flex justify-center items-center font-bold">
-                  80%
-                </span>
-                {/* <div class="relative">
-                  <div class="w-full bg-gray-200 rounded-sm h-8">
-                    <div
-                      class="bg-gray-900 h-full rounded-sm"
-                      style={{ width: "80%" }}
-                    ></div>
+                  <div className="font-bold text-yellow-700">70%</div>
+                </div>
+                <div class="flex items-center justify-between p-3 w-full bg-gray-50 rounded-lg hover:bg-blue-50 transition-colors">
+                  <div className="flex">
+                    <img
+                      src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/vuejs/vuejs-original.svg"
+                      alt="vuejs"
+                      class="w-8 h-8 mr-3 "
+                    />
+                    <div class="font-bold">VueJS </div>
                   </div>
-                </div> */}
-              </div>
-            </div>
-
-            {/* NestJS */}
-            <div class=" bg-white dark:bg-gray-800 rounded-lg shadow-md hover:shadow-lg duration-300 transform hover:scale-105">
-              <div className="flex flex-col justify-center items-center">
-                <img
-                  src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nestjs/nestjs-original.svg"
-                  alt="NestJS"
-                  class="w-12 h-12 mb-2"
-                />
-                <span class="text-xl text-black font-semibold">NestJS</span>
-              </div>
-
-              <div>
-                <span class="text-2xl flex justify-center items-center font-bold">
-                  70%
-                </span>
-                {/* <div class="relative">
-                  <div class="w-full bg-gray-200 rounded-sm h-8">
-                    <div
-                      class="bg-red-600 h-full rounded-sm"
-                      style={{ width: "70%" }}
-                    ></div>
+                  <div className="font-bold text-yellow-700">80%</div>
+                </div>
+                <div class="flex items-center justify-between p-3 w-full bg-gray-50 rounded-lg hover:bg-blue-50 transition-colors">
+                  <div className="flex">
+                    <img
+                      src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg"
+                      alt="react"
+                      class="w-8 h-8 mr-3 "
+                    />
+                    <div class="font-bold">ReactJS </div>
                   </div>
-                </div> */}
-              </div>
-            </div>
-
-            {/* Python */}
-            <div class=" bg-white dark:bg-gray-800 rounded-lg shadow-md hover:shadow-lg duration-300 transform hover:scale-105">
-              <div className="flex flex-col justify-center items-center">
-                <img
-                  src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg"
-                  alt="python"
-                  class="w-12 h-12 mb-2"
-                />
-                <span class="text-xl text-black font-semibold">Python</span>
-              </div>
-
-              <div>
-                <span class="text-2xl flex justify-center items-center font-bold">
-                  60%
-                </span>
-                {/* <div class="relative">
-                  <div class="w-full bg-gray-200 rounded-sm h-8">
-                    <div
-                      class="bg-yellow-400 h-full rounded-sm"
-                      style={{ width: "60%" }}
-                    ></div>
+                  <div className="font-bold text-yellow-700">85%</div>
+                </div>
+                <div class="flex items-center justify-between p-3 w-full bg-gray-50 rounded-lg hover:bg-blue-50 transition-colors">
+                  <div className="flex">
+                    <img
+                      src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/tailwindcss/tailwindcss-original.svg"
+                      alt="tailwindcss"
+                      class="w-8 h-8 mr-3 "
+                    />
+                    <div class="font-bold">Tailwindcss </div>
                   </div>
-                </div> */}
+                  <div className="font-bold text-yellow-700">70%</div>
+                </div>
+                
               </div>
-            </div>
+            </section>
 
-            {/* flask */}
-            <div class=" bg-white dark:bg-gray-800 rounded-lg shadow-md hover:shadow-lg duration-300 transform hover:scale-105">
-              <div className="flex flex-col justify-center items-center">
-                <img
-                  src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/flask/flask-original.svg"
-                  alt="flask"
-                  class="w-12 h-12 mb-2"
-                />
-                <span class="text-xl text-black font-semibold">Flask</span>
-              </div>
+            <section class="flex-1 min-w-[300px]">
+              <h2 class="text-xl font-bold text-gray-800 mb-2 flex items-center">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  class="h-5 w-5 mr-2 text-yellow-600"
+                  fill="none"
+                  viewBox="0 0 24 24"
+                  stroke="currentColor"
+                >
+                  <path
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    stroke-width="2"
+                    d="M13 10V3L4 14h7v7l9-11h-7z"
+                  />
+                </svg>
+                Back-end
+              </h2>
+              <div class="w-16 h-1 bg-yellow-600 mb-4"></div>
 
-              <div>
-                <span class="text-2xl flex justify-center items-center font-bold">
-                  60%
-                </span>
-                {/* <div class="relative">
-                  <div class="w-full bg-gray-200 rounded-sm h-8">
-                    <div
-                      class="bg-gray-400 h-full rounded-sm"
-                      style={{ width: "60%" }}
-                    ></div>
+              <div class="space-y-3">
+                <div class="flex items-center justify-between p-3 w-full bg-gray-50 rounded-lg hover:bg-blue-50 transition-colors">
+                  <div className="flex">
+                    <img
+                      src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/php/php-original.svg"
+                      alt="PHH"
+                      class="w-8 h-8 mr-3 "
+                    />
+                    <div class="font-bold">PHP </div>
                   </div>
-                </div> */}
-              </div>
-            </div>
-          </div>
-        </section>
-        <section
-          data-aos="fade-right"
-          data-aos-offset="100"
-          data-aos-easing="ease-in-sine"
-          className="Frontend mt-10"
-        >
-          <div>
-            <h2 class="text-2xl text-yellow-800 tracking-tight font-extrabold text-center  md:text-2xl dark:text-white mt-10 mb-10">
-              FRONTEND
-            </h2>
-          </div>
-
-          <div class="grid grid-cols-2 items-center /sm:grid-cols-3 md:grid-cols-4 gap-6">
-            <div class=" bg-white dark:bg-gray-800 rounded-lg shadow-md hover:shadow-lg duration-300 transform hover:scale-105">
-              <div className="flex flex-col justify-center items-center">
-                <img
-                  src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/vuejs/vuejs-original.svg"
-                  alt="VueJs"
-                  class="w-12 h-12 mb-2"
-                />
-                <span class="text-xl text-black font-semibold">VueJs</span>
-              </div>
-
-              <div>
-                <span class="text-2xl flex justify-center items-center font-bold">
-                  80%
-                </span>
-                {/* <div class="relative">
-                  <div class="w-full bg-gray-200 rounded-sm h-8">
-                    <div
-                      class="bg-green-600 h-full rounded-sm"
-                      style={{ width: "80%" }}
-                    ></div>
+                  <div className="font-bold text-yellow-700">75%</div>
+                </div>
+                <div class="flex items-center justify-between p-3 w-full bg-gray-50 rounded-lg hover:bg-blue-50 transition-colors">
+                  <div className="flex">
+                    <img
+                      src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/laravel/laravel-original.svg"
+                      alt="Laravel"
+                      class="w-8 h-8 mr-3 "
+                    />
+                    <div class="font-bold">Laravel </div>
                   </div>
-                </div> */}
-              </div>
-            </div>
-
-            {/* ReactJS */}
-            <div class=" bg-white dark:bg-gray-800 rounded-lg shadow-md hover:shadow-lg duration-300 transform hover:scale-105">
-              <div className="flex flex-col justify-center items-center">
-                <img
-                  src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg"
-                  alt="ReactJS"
-                  class="w-12 h-12 mb-2"
-                />
-                <span class="text-xl text-black font-semibold">ReactJS</span>
-              </div>
-
-              <div>
-                <span class="text-2xl flex justify-center items-center font-bold">
-                  70%
-                </span>
-                {/* <div class="relative">
-                  <div class="w-full bg-gray-200 rounded-sm h-8">
-                    <div
-                      class="bg-blue-300 h-full rounded-sm"
-                      style={{ width: "70%" }}
-                    ></div>
+                  <div className="font-bold text-yellow-700">80%</div>
+                </div>
+                <div class="flex items-center justify-between p-3 w-full bg-gray-50 rounded-lg hover:bg-blue-50 transition-colors">
+                  <div className="flex">
+                    <img
+                      src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original.svg"
+                      alt="Nodejs"
+                      class="w-8 h-8 mr-3 "
+                    />
+                    <div class="font-bold">Nodejs </div>
                   </div>
-                </div> */}
-              </div>
-            </div>
-
-            {/* javascript */}
-            <div class=" bg-white dark:bg-gray-800 rounded-lg shadow-md hover:shadow-lg duration-300 transform hover:scale-105">
-              <div className="flex flex-col justify-center items-center">
-                <img
-                  src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg"
-                  alt="javascript"
-                  class="w-12 h-12 mb-2"
-                />
-                <span class="text-xl text-black font-semibold">javascript</span>
-              </div>
-
-              <div>
-                <span class="text-2xl flex justify-center items-center font-bold">
-                  80%
-                </span>
-                {/* <div class="relative">
-                  <div class="w-full bg-gray-200 rounded-sm h-8">
-                    <div
-                      class="bg-red-500 h-full rounded-sm"
-                      style={{ width: "80%" }}
-                    ></div>
+                  <div className="font-bold text-yellow-700">70%</div>
+                </div>
+                <div class="flex items-center justify-between p-3 w-full bg-gray-50 rounded-lg hover:bg-blue-50 transition-colors">
+                  <div className="flex">
+                    <img
+                      src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nestjs/nestjs-original.svg"
+                      alt="NestJS"
+                      class="w-8 h-8 mr-3 "
+                    />
+                    <div class="font-bold">NestJS </div>
                   </div>
-                </div> */}
-              </div>
-            </div>
-
-            {/* Javascript */}
-            <div class=" bg-white dark:bg-gray-800 rounded-lg shadow-md hover:shadow-lg duration-300 transform hover:scale-105">
-              <div className="flex flex-col justify-center items-center">
-                <img
-                  src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/bootstrap/bootstrap-original.svg"
-                  alt="bootstrap"
-                  class="w-12 h-12 mb-2"
-                />
-                <span class="text-xl text-black font-semibold">bootstrap</span>
-              </div>
-
-              <div>
-                <span class="text-2xl flex justify-center items-center font-bold">
-                  80%
-                </span>
-                {/* <div class="relative">
-                  <div class="w-full bg-gray-200 rounded-sm h-8">
-                    <div
-                      class="bg-red-500 h-full rounded-sm"
-                      style={{ width: "80%" }}
-                    ></div>
+                  <div className="font-bold text-yellow-700">75%</div>
+                </div>
+                <div class="flex items-center justify-between p-3 w-full bg-gray-50 rounded-lg hover:bg-blue-50 transition-colors">
+                  <div className="flex">
+                    <img
+                      src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nextjs/nextjs-original.svg"
+                      alt="NextJS"
+                      class="w-8 h-8 mr-3 "
+                    />
+                    <div class="font-bold">NextJS </div>
                   </div>
-                </div> */}
-              </div>
-            </div>
-
-            {/* tailwind */}
-            <div class=" bg-white dark:bg-gray-800 rounded-lg shadow-md hover:shadow-lg duration-300 transform hover:scale-105">
-              <div className="flex flex-col justify-center items-center">
-                <img
-                  src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/tailwindcss/tailwindcss-original.svg"
-                  alt="tailwind"
-                  class="w-12 h-12 mb-2"
-                />
-                <span class="text-xl text-black font-semibold">tailwind</span>
-              </div>
-
-              <div>
-                <span class="text-2xl flex justify-center items-center font-bold">
-                  85%
-                </span>
-                {/* <div class="relative">
-                  <div class="w-full bg-gray-200 rounded-sm h-8">
-                    <div
-                      class="bg-red-500 h-full rounded-sm"
-                      style={{ width: "80%" }}
-                    ></div>
+                  <div className="font-bold text-yellow-700">80%</div>
+                </div>
+                <div class="flex items-center justify-between p-3 w-full bg-gray-50 rounded-lg hover:bg-blue-50 transition-colors">
+                  <div className="flex">
+                    <img
+                      src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg"
+                      alt="Python"
+                      class="w-8 h-8 mr-3 "
+                    />
+                    <div class="font-bold">Python </div>
                   </div>
-                </div> */}
+                  <div className="font-bold text-yellow-700">65%</div>
+                </div>
               </div>
-            </div>
-          </div>
+            </section>
         </section>
 
-        <section
-          data-aos="fade-right"
-          data-aos-offset="100"
-          data-aos-easing="ease-in-sine"
-          className="Base de Donnees mt-10 "
-        >
-          <div>
-            <h2 class="text-2xl tracking-tight font-extrabold text-center text-yellow-900 md:text-2xl dark:text-white mt-10 mb-10">
-              BASE DE DONNÉES
-            </h2>
-          </div>
+        <section class="flex flex-wrap gap-8 mt-20">
+            <section class="flex-1 min-w-[300px]">
+              <h2 class="text-xl font-bold text-gray-800 mb-2 flex items-center">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  class="h-5 w-5 mr-2 text-yellow-600"
+                  fill="none"
+                  viewBox="0 0 24 24"
+                  stroke="currentColor"
+                >
+                  <path
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    stroke-width="2"
+                    d="M13 10V3L4 14h7v7l9-11h-7z"
+                  />
+                </svg>
+                Base de Données
+              </h2>
+              <div class="w-16 h-1 bg-yellow-600 mb-4"></div>
 
-          <div class="grid grid-cols-2 items-center /sm:grid-cols-3 md:grid-cols-4 gap-6">
-            <div class=" bg-white dark:bg-gray-800 rounded-lg shadow-md hover:shadow-lg duration-300 transform hover:scale-105">
-              <div className="flex flex-col justify-center items-center">
-                <img
-                  src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mysql/mysql-original.svg"
-                  alt="mysql"
-                  class="w-12 h-12 mb-2"
-                />
-                <span class="text-xl text-black font-semibold">mysql</span>
-              </div>
-
-              <div>
-                <span class="text-2xl flex justify-center items-center font-bold">
-                  85%
-                </span>
-                {/* <div class="relative">
-                  <div class="w-full bg-gray-200 rounded-sm h-8">
-                    <div
-                      class="bg-green-600 h-full rounded-sm"
-                      style={{ width: "80%" }}
-                    ></div>
+              <div class="space-y-3">
+                <div class="flex items-center justify-between p-3 w-full bg-gray-50 rounded-lg hover:bg-blue-50 transition-colors">
+                  <div className="flex">
+                    <img
+                      src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mysql/mysql-original.svg"
+                      alt="MySql"
+                      class="w-8 h-8 mr-3 "
+                    />
+                    <div class="font-bold">MySql </div>
                   </div>
-                </div> */}
-              </div>
-            </div>
-
-            {/* MongoDB */}
-            <div class=" bg-white dark:bg-gray-800 rounded-lg shadow-md hover:shadow-lg duration-300 transform hover:scale-105">
-              <div className="flex flex-col justify-center items-center">
-                <img
-                  src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mongodb/mongodb-original.svg"
-                  alt="MongoDB"
-                  class="w-12 h-12 mb-2"
-                />
-                <span class="text-xl text-black font-semibold">MongoDB</span>
-              </div>
-
-              <div>
-                <span class="text-2xl flex justify-center items-center font-bold">
-                  75%
-                </span>
-                {/* <div class="relative">
-                  <div class="w-full bg-gray-200 rounded-sm h-8">
-                    <div
-                      class="bg-blue-300 h-full rounded-sm"
-                      style={{ width: "70%" }}
-                    ></div>
+                  <div className="font-bold text-yellow-700">85%</div>
+                </div>
+                <div class="flex items-center justify-between p-3 w-full bg-gray-50 rounded-lg hover:bg-blue-50 transition-colors">
+                  <div className="flex">
+                    <img
+                      src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mongodb/mongodb-original.svg"
+                      alt="MongoDB"
+                      class="w-8 h-8 mr-3 "
+                    />
+                    <div class="font-bold">MongoDB </div>
                   </div>
-                </div> */}
-              </div>
-            </div>
-
-            {/* sqlite */}
-            <div class=" bg-white dark:bg-gray-800 rounded-lg shadow-md hover:shadow-lg duration-300 transform hover:scale-105">
-              <div className="flex flex-col justify-center items-center">
-                <img
-                  src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/sqlite/sqlite-original.svg"
-                  alt="sqlite"
-                  class="w-12 h-12 mb-2"
-                />
-                <span class="text-xl text-black font-semibold">sqlite</span>
-              </div>
-
-              <div>
-                <span class="text-2xl flex justify-center items-center font-bold">
-                  65%
-                </span>
-                {/* <div class="relative">
-                  <div class="w-full bg-gray-200 rounded-sm h-8">
-                    <div
-                      class="bg-red-500 h-full rounded-sm"
-                      style={{ width: "80%" }}
-                    ></div>
+                  <div className="font-bold text-yellow-700">75%</div>
+                </div>
+                <div class="flex items-center justify-between p-3 w-full bg-gray-50 rounded-lg hover:bg-blue-50 transition-colors">
+                  <div className="flex">
+                    <img
+                      src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/sqlite/sqlite-original.svg"
+                      alt="Sqlite"
+                      class="w-8 h-8 mr-3 "
+                    />
+                    <div class="font-bold">Sqlite </div>
                   </div>
-                </div> */}
+                  <div className="font-bold text-yellow-700">70%</div>
+                </div>
+                
               </div>
-            </div>
-          </div>
+            </section>
+
+            <section class="flex-1 min-w-[300px]">
+              <h2 class="text-xl font-bold text-gray-800 mb-2 flex items-center">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  class="h-5 w-5 mr-2 text-yellow-600"
+                  fill="none"
+                  viewBox="0 0 24 24"
+                  stroke="currentColor"
+                >
+                  <path
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    stroke-width="2"
+                    d="M13 10V3L4 14h7v7l9-11h-7z"
+                  />
+                </svg>
+                Outils et DevOps
+              </h2>
+              <div class="w-16 h-1 bg-yellow-600 mb-4"></div>
+
+              <div class="space-y-3">
+                <div class="flex items-center justify-between p-3 w-full bg-gray-50 rounded-lg hover:bg-blue-50 transition-colors">
+                  <div className="flex">
+                    <img
+                      src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg"
+                      alt="Git"
+                      class="w-8 h-8 mr-3 "
+                    />
+                    <div class="font-bold">Git </div>
+                  </div>
+                  <div className="font-bold text-yellow-700">80%</div>
+                </div>
+                <div class="flex items-center justify-between p-3 w-full bg-gray-50 rounded-lg hover:bg-blue-50 transition-colors">
+                  <div className="flex">
+                    <img
+                      src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/docker/docker-original.svg"
+                      alt="Docker"
+                      class="w-8 h-8 mr-3 "
+                    />
+                    <div class="font-bold">Docker </div>
+                  </div>
+                  <div className="font-bold text-yellow-700">60%</div>
+                </div>
+                <div class="flex items-center justify-between p-3 w-full bg-gray-50 rounded-lg hover:bg-blue-50 transition-colors">
+                  <div className="flex">
+                    <img
+                      src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/postman/postman-original.svg"
+                      alt="Postman"
+                      class="w-8 h-8 mr-3 "
+                    />
+                    <div class="font-bold">Postman </div>
+                  </div>
+                  <div className="font-bold text-yellow-700">85%</div>
+                </div>
+              </div>
+            </section>
         </section>
 
-        <section
-          data-aos="fade-right"
-          data-aos-offset="100"
-          data-aos-easing="ease-in-sine"
-          className="Base de Donnees mt-10 "
-        >
-          <div>
-            <h2 class="text-2xl tracking-tight font-extrabold text-center text-yellow-900 md:text-2xl dark:text-white mt-10 mb-10">
-              OUTILS
-            </h2>
-          </div>
+        <section class="flex flex-wrap gap-8 mt-20">
+            <section class="flex-1 min-w-[300px]">
+              <h2 class="text-xl font-bold text-gray-800 mb-2 flex items-center">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  class="h-5 w-5 mr-2 text-yellow-600"
+                  fill="none"
+                  viewBox="0 0 24 24"
+                  stroke="currentColor"
+                >
+                  <path
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    stroke-width="2"
+                    d="M13 10V3L4 14h7v7l9-11h-7z"
+                  />
+                </svg>
+                Mobile
+              </h2>
+              <div class="w-16 h-1 bg-yellow-600 mb-4"></div>
 
-          <div class="grid grid-cols-2 items-center /sm:grid-cols-3 md:grid-cols-4 gap-6">
-            <div class=" bg-white dark:bg-gray-800 rounded-lg shadow-md hover:shadow-lg duration-300 transform hover:scale-105">
-              <div className="flex flex-col justify-center items-center">
-                <img
-                  src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg"
-                  alt="github"
-                  class="w-12 h-12 mb-2"
-                />
-                <span class="text-xl text-black font-semibold">github</span>
-              </div>
-
-              <div>
-                <span class="text-2xl flex justify-center items-center font-bold">
-                  85%
-                </span>
-                {/* <div class="relative">
-                  <div class="w-full bg-gray-200 rounded-sm h-8">
-                    <div
-                      class="bg-green-600 h-full rounded-sm"
-                      style={{ width: "80%" }}
-                    ></div>
+              <div class="space-y-3">
+                <div class="flex items-center justify-between p-3 w-full bg-gray-50 rounded-lg hover:bg-blue-50 transition-colors">
+                  <div className="flex">
+                    <img
+                      src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/reactnative/reactnative-original.svg"
+                      alt="React Native"
+                      class="w-8 h-8 mr-3 "
+                    />
+                    <div class="font-bold">React Native </div>
                   </div>
-                </div> */}
+                  <div className="font-bold text-yellow-700">85%</div>
+                </div>
+                
               </div>
-            </div>
+            </section>
 
-            {/* trello */}
-            <div class=" bg-white dark:bg-gray-800 rounded-lg shadow-md hover:shadow-lg duration-300 transform hover:scale-105">
-              <div className="flex flex-col justify-center items-center">
-                <img
-                  src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/trello/trello-original.svg"
-                  alt="trello"
-                  class="w-12 h-12 mb-2"
-                />
-                <span class="text-xl text-black font-semibold">trello</span>
-              </div>
-
-              <div>
-                <span class="text-2xl flex justify-center items-center font-bold">
-                  90%
-                </span>
-                {/* <div class="relative">
-                  <div class="w-full bg-gray-200 rounded-sm h-8">
-                    <div
-                      class="bg-blue-300 h-full rounded-sm"
-                      style={{ width: "70%" }}
-                    ></div>
-                  </div>
-                </div> */}
-              </div>
-            </div>
-
-            {/* sqlite */}
-          </div>
         </section>
       </div>
-    </section>
+    </>
   );
 };
 
