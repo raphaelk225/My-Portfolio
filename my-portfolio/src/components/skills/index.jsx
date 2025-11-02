@@ -8,8 +8,8 @@ const Skills = () => {
         </h2>
         <div className="w-full h-2 bg-yellow-700 my-4"></div>
 
-        <section class="flex flex-wrap gap-8">
-            <section class="flex-1 min-w-[300px]">
+        <section  class="flex flex-wrap gap-8">
+            <section data-aos="zoom-in-down" class="flex-1 min-w-[300px]">
               <h2 class="text-xl font-bold text-gray-800 mb-2 flex items-center">
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
@@ -100,7 +100,7 @@ const Skills = () => {
               </div>
             </section>
 
-            <section class="flex-1 min-w-[300px]">
+            <section data-aos="zoom-in-down" class="flex-1 min-w-[300px]">
               <h2 class="text-xl font-bold text-gray-800 mb-2 flex items-center">
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
@@ -192,7 +192,7 @@ const Skills = () => {
         </section>
 
         <section class="flex flex-wrap gap-8 mt-20">
-            <section class="flex-1 min-w-[300px]">
+            <section data-aos="zoom-in-down" class="flex-1 min-w-[300px]">
               <h2 class="text-xl font-bold text-gray-800 mb-2 flex items-center">
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
@@ -250,7 +250,7 @@ const Skills = () => {
               </div>
             </section>
 
-            <section class="flex-1 min-w-[300px]">
+            <section data-aos="zoom-in-down" class="flex-1 min-w-[300px]">
               <h2 class="text-xl font-bold text-gray-800 mb-2 flex items-center">
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
@@ -266,7 +266,7 @@ const Skills = () => {
                     d="M13 10V3L4 14h7v7l9-11h-7z"
                   />
                 </svg>
-                Outils et DevOps
+                Outils 
               </h2>
               <div class="w-16 h-1 bg-yellow-600 mb-4"></div>
 
@@ -285,13 +285,13 @@ const Skills = () => {
                 <div class="flex items-center justify-between p-3 w-full bg-gray-50 rounded-lg hover:bg-blue-50 transition-colors">
                   <div className="flex">
                     <img
-                      src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/docker/docker-original.svg"
-                      alt="Docker"
+                      src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg"
+                      alt="Github"
                       class="w-8 h-8 mr-3 "
                     />
-                    <div class="font-bold">Docker </div>
+                    <div class="font-bold">GitHub </div>
                   </div>
-                  <div className="font-bold text-yellow-700">60%</div>
+                  <div className="font-bold text-yellow-700">80%</div>
                 </div>
                 <div class="flex items-center justify-between p-3 w-full bg-gray-50 rounded-lg hover:bg-blue-50 transition-colors">
                   <div className="flex">
@@ -304,12 +304,23 @@ const Skills = () => {
                   </div>
                   <div className="font-bold text-yellow-700">85%</div>
                 </div>
+                <div class="flex items-center justify-between p-3 w-full bg-gray-50 rounded-lg hover:bg-blue-50 transition-colors">
+                  <div className="flex">
+                    <img
+                      src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/trello/trello-original.svg"
+                      alt="Trello"
+                      class="w-8 h-8 mr-3 "
+                    />
+                    <div class="font-bold">Trello </div>
+                  </div>
+                  <div className="font-bold text-yellow-700">90%</div>
+                </div>
               </div>
             </section>
         </section>
 
         <section class="flex flex-wrap gap-8 mt-20">
-            <section class="flex-1 min-w-[300px]">
+            <section data-aos="zoom-in-down" class="flex-1 min-w-[300px]">
               <h2 class="text-xl font-bold text-gray-800 mb-2 flex items-center">
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
@@ -345,6 +356,53 @@ const Skills = () => {
               </div>
             </section>
 
+            <section data-aos="zoom-in-down" class="flex-1 min-w-[300px]">
+              <h2 class="text-xl font-bold text-gray-800 mb-2 flex items-center">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  class="h-5 w-5 mr-2 text-yellow-600"
+                  fill="none"
+                  viewBox="0 0 24 24"
+                  stroke="currentColor"
+                >
+                  <path
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    stroke-width="2"
+                    d="M13 10V3L4 14h7v7l9-11h-7z"
+                  />
+                </svg>
+                Déploiement et DevOps
+              </h2>
+              <div class="w-16 h-1 bg-yellow-600 mb-4"></div>
+
+              <div class="space-y-3">
+                <div class="flex items-center justify-between p-3 w-full bg-gray-50 rounded-lg hover:bg-blue-50 transition-colors">
+                  <div className="flex">
+                    <img
+                      src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/docker/docker-original.svg"
+                      alt="Docker"
+                      class="w-8 h-8 mr-3 "
+                    />
+                    <div class="font-bold">Docker </div>
+                  </div>
+                  <div className="font-bold text-yellow-700">65%</div>
+                </div>
+                
+                <div class="flex items-center justify-between p-3 w-full bg-gray-50 rounded-lg hover:bg-blue-50 transition-colors">
+                  <div className="flex">
+                    <img
+                      src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/vercel/vercel-original.svg"
+                      alt="Vercel"
+                      class="w-8 h-8 mr-3 "
+                    />
+                    <div class="font-bold">Vercel </div>
+                  </div>
+                  <div className="font-bold text-yellow-700">80%</div>
+                </div>
+                
+              </div>
+            </section>
         </section>
       </div>
     </>
