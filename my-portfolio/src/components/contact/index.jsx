@@ -37,10 +37,11 @@ const ContactMe = () => {
         <div class="my-6 ">
           <div class="grid sm:grid-cols-2 items-center gap-16 p-8 m-10 max-w-full bg-white shadow-[0_2px_10px_-3px_rgba(6,81,237,0.3)] rounded-md text-[#333] font-[sans-serif]">
             <div>
-              <h1 class="text-3xl font-extrabold">Let's Talk</h1>
+              <h1 class="text-3xl font-extrabold">Parlons-en</h1>
               <div className="w-20 h-2 bg-yellow-700 my-4"></div>
               <p class="text-sm text-gray-400 mt-3">
-                Got a question or proposal, or just want to say hello? Go ahead.
+                Vous avez une question ou une suggestion, ou vous souhaitez
+                simplement dire bonjour ? N'hésitez pas.
               </p>
               <div class="mt-12">
                 <h2 class="text-lg font-extrabold">Email</h2>
@@ -75,15 +76,6 @@ const ContactMe = () => {
                 <h2 class="text-lg font-extrabold">Socials</h2>
                 <ul class="flex mt-3 space-x-4">
                   <li class=" h-10 w-10 rounded-full flex items-center justify-center shrink-0 duration-300 transform hover:scale-105">
-                    <a href="javascript:void(0)">
-                      <img
-                        src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/facebook/facebook-original.svg"
-                        alt="Facebook"
-                        class="w-12 h-12 mb-2"
-                      />
-                    </a>
-                  </li>
-                  <li class=" h-10 w-10 rounded-full flex items-center justify-center shrink-0 duration-300 transform hover:scale-105">
                     <a
                       href="http://www.linkedin.com/in/raphael-kouamelan-9b337733a"
                       target="blank"
@@ -97,7 +89,7 @@ const ContactMe = () => {
                   </li>
                   <li class=" h-10 w-10 rounded-full flex items-center justify-center shrink-0 duration-300 transform hover:scale-105">
                     <a
-                      href="http://www.linkedin.com/in/raphael-kouamelan-9b337733a"
+                      href="https://github.com/raphaelk225"
                       target="blank"
                     >
                       <img
@@ -121,7 +113,7 @@ const ContactMe = () => {
               />
               <input
                 type="email"
-                placeholder="Email address"
+                placeholder="Email "
                 name="email"
                 class="w-full rounded-md py-2.5 px-4 border text-sm outline-yellow-700"
                 required
@@ -149,45 +141,6 @@ const ContactMe = () => {
           </div>
         </div>
       </section>
-
-      {/* <section class="bg-zinc-50 overflow-hidden">
-        <div class="max-w-screen-xl 2xl:max-w-screen-3xl px-8 md:px-12 mx-auto  lg:py-24 space-y-24  flex flex-col justify-center">
-          <div class="flex flex-col sm:flex-row mx-auto">
-            <a href="#_">
-              {" "}
-              <img
-                src="https://images.unsplash.com/photo-1530035415911-95194de4ebcc?q=80&amp;w=2670&amp;auto=format&amp;fit=crop&amp;ixlib=rb-4.0.3&amp;ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
-                class="rounded-xl  rotate-6 hover:rotate-0 duration-500 hover:-translate-y-12 h-full w-full object-cover hover:scale-150 transform origin-bottom"
-                alt="#_"
-              />{" "}
-            </a>
-            <a href="#_">
-              {" "}
-              <img
-                src="https://images.unsplash.com/photo-1487180144351-b8472da7d491?q=80&amp;w=2672&amp;auto=format&amp;fit=crop&amp;ixlib=rb-4.0.3&amp;ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D "
-                class="rounded-xl  -rotate-12 hover:rotate-0 duration-500 hover:-translate-y-12 h-full w-full object-cover hover:scale-150 transform origin-bottom"
-                alt="#_"
-              />{" "}
-            </a>
-            <a href="#_">
-              {" "}
-              <img
-                src="https://images.unsplash.com/photo-1586996292898-71f4036c4e07?q=80&amp;w=2670&amp;auto=format&amp;fit=crop&amp;ixlib=rb-4.0.3&amp;ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
-                class="rounded-xl  rotate-6 hover:rotate-0 duration-500 hover:-translate-y-12 h-full w-full object-cover hover:scale-150 transform origin-bottom"
-                alt="#_"
-              />{" "}
-            </a>
-            <a href="#_">
-              {" "}
-              <img
-                src="https://images.unsplash.com/photo-1522775417749-29284fb89f43?q=80&amp;w=2574&amp;auto=format&amp;fit=crop&amp;ixlib=rb-4.0.3&amp;ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
-                class="rounded-xl  -rotate-12 hover:rotate-0 duration-500 hover:-translate-y-12 h-full w-full object-cover hover:scale-150 transform origin-bottom"
-                alt="#_"
-              />{" "}
-            </a>
-          </div>
-        </div>
-      </section> */}
     </>
   );
 };

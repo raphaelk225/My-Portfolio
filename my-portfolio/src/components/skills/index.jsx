@@ -4,7 +4,7 @@ const Skills = () => {
     <>
       <div class="w-full p-6">
         <h2 class="text-3xl sm:text-5xl leading-normal font-extrabold tracking-tight text-gray-900">
-          My Skills
+          Compétences
         </h2>
         <div className="w-full h-2 bg-yellow-700 my-4"></div>
 

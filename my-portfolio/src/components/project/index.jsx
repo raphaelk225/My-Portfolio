@@ -10,7 +10,7 @@ const Projects = () => {
     <>
       <section class="mb-20 animate-fade-in-up m-10">
         <h3 className="text-3xl sm:text-5xl leading-normal font-extrabold tracking-tight text-gray-900">
-          Projects
+          Projets
         </h3>
         <div className="w-full h-2 bg-yellow-700 my-4"></div>
         <div class="grid grid-cols-1 md:grid-cols-2 gap-8">

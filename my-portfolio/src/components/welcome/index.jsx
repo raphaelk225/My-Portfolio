@@ -11,13 +11,6 @@ const Welcome = () => {
               <div className="text-4xl font-bold mt-4">
                 MyPortfolio<span className="text-yellow-700">.</span>
               </div>
-              <div>
-                <img
-                  src="https://image.flaticon.com/icons/svg/497/497348.svg"
-                  alt=""
-                  className="w-8"
-                />
-              </div>
             </nav>
             <header className="container px-4 lg:flex mt-10 items-center h-full lg:mt-0">
               <div className="w-full">
@@ -28,7 +21,7 @@ const Welcome = () => {
                   </span>
                   <br />
                   <span className="text-4xl">
-                    Développeur FullStack Junior{" "}
+                    Développeur FullStack Junior
                   </span>
                 </h1>
                 <div
